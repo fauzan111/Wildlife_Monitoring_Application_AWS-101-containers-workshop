@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/fauzan111/Wildlife_Monitoring_Application_AWS-101-containers-workshop
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	vscode-merge-base = origin/main
+	merge = refs/heads/main
+[branch "copilot/worktree-2026-07-01T22-11-04"]
+	vscode-merge-base = origin/main
